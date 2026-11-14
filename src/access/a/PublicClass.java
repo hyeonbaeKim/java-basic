@@ -15,4 +15,4 @@ class DefaultClass2{ //default 클래스
 }
 
 //PublicClass.java파일안에 public클래스는 PublicClass.java파일과 이름이 같은 PublicClass 한개만
-//default클래스들은 이 PublicClass.java 파일안에 무한정 만들 수 있
+//default클래스들은 이 PublicClass.java 파일안에 무한정 만들 수 있다.

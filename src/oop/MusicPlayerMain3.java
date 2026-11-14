@@ -1,5 +1,7 @@
 package oop;
 
+import final1.Constant;
+
 public class MusicPlayerMain3 {
     static void main(String[] args) {
         /*
@@ -33,6 +35,8 @@ public class MusicPlayerMain3 {
 
         //음악플레이어 끄기
         off(data);
+
+        System.out.println(Constant.SECONDS_IN_MINUTE); //static final 상수 테스트
     }
 
     static void on(MusicPlayerData data){
