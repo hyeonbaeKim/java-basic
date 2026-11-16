@@ -11,7 +11,7 @@ public class ClassB extends ClassA {
     }
 
     public ClassB(int a, int b) {
-        super(); //매개변수 없는 기본생성자. (생략가능) --> 하지만 결국 맨 마지막에 super()는 반드시 필요
+        super(); //매개변수 없는 기본생성자(생략가능) --> 하지만 결국 맨 마지막에 super()는 반드시 필요
         System.out.println("Class B 생성자 a = " + a + ", b = " + b);
     }
 }

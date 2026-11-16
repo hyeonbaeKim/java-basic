@@ -7,7 +7,7 @@ public class CarMain {
         eCar.openDoor();
 
         GasCar gCar = new GasCar();
-        gCar.move();
+        gCar.move(); //여기는 GasCar에서 move를 찾는데 없어서 위로올라가서 Car의 move를 찾는다.
         gCar.openDoor();
     }
 }
