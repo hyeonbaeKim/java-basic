@@ -15,6 +15,7 @@ public class ClassStart5 {
 
         Student[] students = {student1,student2}; //최적화!!!
         //Student[] students = new Student[]{student1,student2};
+        //Student[] students = new Student[2];
 
         for( int i = 0; i < students.length; i++) {
             System.out.println(students[i].name + " " + students[i].age + " " + students[i].grade);

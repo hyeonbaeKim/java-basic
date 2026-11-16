@@ -1,6 +1,6 @@
 package final1;
 /*
-프로그램 전체에서 public으로 상수 지정해주고 아무데서나 갖다 쓰게 하자
+프로그램 전체에서 public으로 상수(static final) 지정해주고 아무데서나 갖다 쓰게 하자
 상수는 런타임에 변경할 수 없어서 수정하려면 프로그램을 끝내고 수정한 후 다시 실행시켜야한다.
  */
 public class Constant {

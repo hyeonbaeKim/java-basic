@@ -1,7 +1,5 @@
 package constructor;
 
 public class MemberInit {
-    String name;
-    int age;
-    int grade;
+    //눈에 보이지 않는 기본생성자(파라미터 없음)
 }

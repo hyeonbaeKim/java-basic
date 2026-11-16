@@ -5,17 +5,12 @@ public class MemberConstructThis {
     int age;
     int grade;
 
-    /*MemberConstruct생성자 만들 때
-    this.name = name;
-    this.age = age; 부분이 중복됬다.
-    이때 this()라는 기능을 사용하면 생성자 내부에서 자신의 생성자를 호출 할 수 있다.
-     */
-
     MemberConstructThis(String name, int age){
         this(name,age,67);
         /*
-        이 코드는 첫번째 생성자 내부에서 두번째 생성자를 호출한다.
-        this()는 생성자 코드의 첫 줄에만 작성할 수 있다. (규칙임)
+        이 코드는 첫번째 생성자 내부에서 두번째 생성자를 호출한다. this()는 생성자 코드의 첫 줄에만 작성할 수 있다.
+        this.name = name;
+        this.age = age; 부분이 중복되서 코드 중복 방지를 위해 this() 사용
          */
     }
 
@@ -25,5 +20,19 @@ public class MemberConstructThis {
         this.grade = grade;
     }
 
+    /*
+    c++ 스타일의 위임생성자
+    class Member {
+        private:
+            std::string name;
+            int age;
+            int grade;
+        public:
+            Member(std::string name, int age, int grade)
+                : name(name), age(age), grade(grade) {}
 
+            Member(std::string name, int age)
+                : Member(name, age, 0) {}   // ← 위임 생성자
+    };
+     */
 }

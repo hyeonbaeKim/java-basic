@@ -2,6 +2,7 @@ package final1;
 
 public class ConstantMain2 {
     static void main(String[] args) {
+        //Constant constant = new Constant(); 같은거 필요하지 않고 바로 클래스에서 상수 사용 가능
         System.out.println("프로그램 최대 참여자 수 : " + Constant.MAX_USERS);
         int currentPeople = 999;
         increasePeople(currentPeople++);

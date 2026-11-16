@@ -19,5 +19,12 @@ public class AcessOuterMain {
         //data.privateMethod();
 
         data.innerAccess(); //innerAccess는 public이라 호출가능. innerAccess내부에서는 private호출가능
+        /*
+        publicMethod호출 1
+        내부 호출
+        publicMethod호출 100
+        defaultMethod호출 200
+        privateMethod호출 300
+         */
     }
 }

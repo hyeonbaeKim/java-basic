@@ -15,7 +15,7 @@ public class BankAccount {
             System.out.println("유효하지 않은 금액입니다. ");
     }
 
-    //내부에서만 쓸 private : 입금내역 검증 -> 이렇게 기능도 다 public시키는게 아님.
+    //내부에서만 쓸 private : 입금내역 검증 -> 이렇게 기능도 다 public시키는게 아님.!!!!!!!!!!!!!!!!!!!!!!
     private boolean isAmountValid(int amount){
         //금액이 0보다 커야함
         return amount > 0;
